@@ -24,7 +24,6 @@ it-from-qubit-rcho/
 ├── phase2.md                     # Dedicated technical report for Phase 2 experiments
 ├── RCHOexperiment.ipynb          # Phase 1: Benchmark RCHO notebook (ibm_kingston)
 ├── RCHOexperimentPhase2.ipynb    # Phase 2: Advanced 4-experiment notebook (ibm_marrakesh)
-└── assets/                       # High-resolution publication plots
 ```
 
 * **[Phase 1 (`RCHOexperiment.ipynb`)](./RCHOexperiment.ipynb):** Discovery of the geometric missing area rule ($\Delta S = 2\pi r_2 r_3 = 2x(1-x)S_1$), proof of the 50.0% midpoint stability equilibrium, its equivalence to linear entanglement entropy, and dimensional scaling across Hurwitz division algebras $\mathbb{R} \to \mathbb{C} \to \mathbb{H} \to \mathbb{O}$.
@@ -121,7 +120,7 @@ pip install qiskit qiskit-ibm-runtime matplotlib numpy
 To run on IBM Quantum hardware, provide your API token in the notebook:
 ```python
 from qiskit_ibm_runtime import QiskitRuntimeService
-service = QiskitRuntimeService(channel="ibm_quantum", token="YOUR_IBM_API_TOKEN")
+service = QiskitRuntimeService(channel="ibm_cloud", token="YOUR_IBM_API_TOKEN")
 ```
 
 ---
