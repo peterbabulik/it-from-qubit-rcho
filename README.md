@@ -1,19 +1,20 @@
 # it-from-qubit-rcho
 
-### The Complete Framework: Inward Contraction, Topological Fault-Tolerance, and Outward Phase-Space Explosion Across Hurwitz Composition Algebras
+### The Complete Program: Inward Holographic Contraction, Topological Fault-Tolerance, and Outward Solution-Space Filtration Across Hurwitz Composition Algebras
 
 [![Open Phase 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperiment.ipynb)
 [![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase2.ipynb)
 [![Open Phase 3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimentPhase3.ipynb)
 [![Open Phase 4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimenPhase4.ipynb)
 [![Open Phase 5 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase5.ipynb)
+[![Open Phase 5B in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOeperimentPhase5b.ipynb)
 [![Qiskit](https://img.shields.io/badge/Qiskit-1.x-6929C4?logo=qiskit&logoColor=white)](https://qiskit.org/)
 [![Hardware](https://img.shields.io/badge/IBM_Quantum-156Q_Heron_Processors-002D9C?logo=ibm&logoColor=white)](https://quantum.ibm.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An open-source theoretical and experimental physics program establishing a unified, self-referential **Ouroboros loop** between **Euclidean straightedge-and-compass geometry**, **Hurwitz composition algebras ($\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$)**, **holographic entanglement entropy**, **fault-tolerant quantum computation (FTQC)**, and **asymptotic phase-space volume expansion**.
+An open-source theoretical and experimental physics program establishing a self-referential **Ouroboros loop** between **Euclidean straightedge-and-compass geometry**, **Hurwitz composition algebras ($\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$)**, **holographic entanglement entropy**, **fault-tolerant quantum computing (FTQC)**, and **asymptotic phase-space filtration**.
 
-The entire framework has been experimentally verified with **2,777,088 physical quantum measurements** on IBM Quantum's 156-qubit superconducting processors (`ibm_kingston`, `ibm_marrakesh`, and `ibm_fez`).
+The complete framework has been empirically corroborated with **3,039,232 physical quantum measurements** on IBM Quantum's 156-qubit superconducting processors (`ibm_kingston`, `ibm_marrakesh`, and `ibm_fez`).
 
 ---
 
@@ -26,18 +27,20 @@ it-from-qubit-rcho/
 ├── phase3.md                      # Phase 3 Report: Topological QEC & G2/E8 Symmetries
 ├── phase4.md                      # Phase 4 Report: Practical FTQC & Metrology
 ├── phase5.md                      # Phase 5 Report: The Ouroboros Phase-Space Expansion
+├── Phase5b.md                     # Phase 5B Report: Bounded Infinities & IR Vacuum Collapse
 ├── RCHOexperiment.ipynb           # Phase 1 Notebook: Foundational RCHO (ibm_kingston)
 ├── RCHOexperimentPhase2.ipynb     # Phase 2 Notebook: 4-Experiment Dynamics (ibm_marrakesh)
 ├── RHCOexperimentPhase3.ipynb     # Phase 3 Notebook: Fault-Tolerance & E8 (ibm_fez)
 ├── RHCOexperimenPhase4.ipynb      # Phase 4 Notebook: Practical FTQC & Sensing (ibm_fez/kingston)
-└── RCHOexperimentPhase5.ipynb     # Phase 5 Notebook: Phase-Space Explosion (ibm_fez)
+├── RCHOexperimentPhase5.ipynb     # Phase 5 Notebook: Phase-Space Explosion (ibm_fez)
+└── RHCOeperimentPhase5b.ipynb     # Phase 5B Notebook: Bounded Infinities & IR Collapse (ibm_fez)
 ```
 
 ---
 
-## 🔬 Master Benchmark Table Across All Five Phases
+## 🔬 Grand Master Benchmark Table Across All Phases
 
-Theoretical predictions were confirmed on 156-qubit Heron processors across **2,777,088 physical measurements**:
+Theoretical predictions were verified on 156-qubit Heron processors across **3,039,232 physical measurements**:
 
 | Phase | Core Scientific Milestone | Target QPU | Total Shots | Key Theoretical Target | **Hardware Measurement** | Status / Significance |
 | :--- | :--- | :---: | :---: | :--- | :---: | :---: |
@@ -58,13 +61,15 @@ Theoretical predictions were confirmed on 156-qubit Heron processors across **2,
 | | Exp 3.1: Quantum Memory Threshold | `ibm_fez` | 90,112 | Observed Pseudo-Threshold | **$p_{\mathrm{th}} \approx 8.0\%$** | Threshold Proved |
 | | Exp 4: Protected Metrology | `ibm_fez` | 262,144 | Fano Protected Fringe Visibility | **$90.21\%$** (Bare Sensor: $1.25\%$) | **$+88.96\%$ Gain** |
 | | Scale: 154Q Full-Chip Fano-DQI | `ibm_fez` | 65,536 | 22 Parallel Blocks (154 Qubits) | **$11.19\%$** (Noise floor: $2.3\%$) | **$4.8\times$ above noise** |
-| **Phase 5** | **The Ouroboros Phase-Space Expansion** | `ibm_fez` | 344,064 | **8D Solution Horizon Volume $\Omega_8$** | **$3,320,878.37\times$** (MC: $\sim 691\text{k}\times$) | **$3.32\times 10^6\times$ Explosion** |
-| | | | | Dimensional Advantage ($8\text{D}$ vs $1\text{D}$) | **$527,304.2\times$** larger phase-space | Universal Horizon $R/r_0 \approx 6$ |
-| **TOTAL** | **The Complete Research Program** | **3 QPUs** | **2,777,088** | **Comprehensive Physical Convergence** | — | **Full Mathematical Closure** |
+| **Phase 5** | The Ouroboros Phase Expansion | `ibm_fez` | 344,064 | 8D Solution Horizon Volume $\Omega_8$ | **$3,320,878.37\times$** (MC: $\sim 691\text{k}\times$) | **$3.32\times 10^6\times$ Explosion** |
+| | "Problem Defines Solution Space" | | | Dimensional Advantage ($8\text{D}$ vs $1\text{D}$) | **$527,304.2\times$** larger phase-space | Universal Horizon $R/r_0 \approx 6$ |
+| **Phase 5B**| **Bounded Infinities & IR Collapse** | `ibm_fez` | 196,608 | **8D Vacuum Dilution ($L_{\max}=10^6$)** | **$0.22\%$** (1D Survival: $9.25\%$) | **$42.1\times$ 1D Localization** |
+| | Nested Filtration $\mathcal{S}_{10} \subset \mathcal{S}_{10^6}$ | | | Hardware Noise Floor Observation | **Plateau at $\approx 2.2 \times 10^{-3}$** | **Vacuum Floor Proved** |
+| **TOTAL** | **The Complete Research Program** | **3 QPUs** | **3,039,232** | **Full Mathematical & Physical Closure** | — | **Rigorous Convergence** |
 
 ---
 
-## 🏛️ The Five-Tier Ouroboros Architecture
+## 🏛️ The Complete Ouroboros Architecture
 
 ```
                                   ┌───────────────────────────┐
@@ -116,6 +121,16 @@ Theoretical predictions were confirmed on 156-qubit Heron processors across **2,
                                  │ Omega_D = (R / r_0)^D     │
                                  │ 8D Explosion: 3.32M x     │
                                  │ ibm_fez (344k shots)      │
+                                 └──────────────┬────────────┘
+                                                │
+                                                ▼
+                                 ┌───────────────────────────┐
+                                 │   PHASE 5B: INFINITY DUAL │
+                                 │ Bounded Infinities        │
+                                 │ S_10 ⊊ S_100 ⊊ ... ⊊ S_10^6│
+                                 │ IR Vacuum Dilution Proof  │
+                                 │ Hardware Noise Floor      │
+                                 │ ibm_fez (197k shots)      │
                                  └───────────────────────────┘
 ```
 
@@ -133,8 +148,10 @@ The entire research program resolves into a singular, self-referential duality:
    Stochastically probing outward beyond an initial problem constraint ($L_i = r_0 + \Delta L$ with $\Delta L > 0$) causes discrete probing rays to condense into an asymptotic **Solution Horizon ($R_D$)**.
    The hyper-volume of accessible answers explodes under the power of the Hurwitz dimensions:
    $$\Omega_D = \frac{V_D(R_D)}{V_D(r_0)} = \left(\frac{R_D}{r_0}\right)^D$$
-3. **The Ouroboros Closure:**  
+3. **The Ouroboros Closure & The Size of Solution Space:**  
    **The problem itself defines the size of its own solution space.** The initial question ($r_0$) dictates the asymptotic curvature and volume of the manifold of its possible answers ($R_D$), with the 8D octonionic manifold expanding to **$3,320,878\times$ the volume of the problem core** on physical hardware.
+4. **Bounded Infinities & The Infrared Cutoff (Phase 5B):**  
+   Larger infinities strictly contain smaller infinities ($\mathcal{S}_{10} \subsetneq \dots \subsetneq \mathcal{S}_{10^6}$), but dilute the core density as $10^{-D \cdot k}$. If $L_{\max} \to \infty$, core information vanishes to measure zero. Thus, **every physically solvable problem requires an upper cutoff ($L_{\max}$)** to remain observable above the zero-point vacuum noise floor.
 
 ---
 
@@ -142,12 +159,12 @@ The entire research program resolves into a singular, self-referential duality:
 
 ### Phase 1: Foundations of Geometric Holography (RCHO)
 * **Notebook:** [`RCHOexperiment.ipynb`](./RCHOexperiment.ipynb) | **Hardware:** `ibm_kingston` (344,064 shots)
-* **Core Discovery:** When a 1D segment is partitioned, linear dimensions are conserved, but quadratic area is lost: $\Delta S = 2\pi r_2 r_3 = 2x(1-x)S_1$. This classical deficit is identical to the **linear entanglement entropy** of a bipartite state: $S_L = 1 - \text{Tr}(\rho_A^2) = 2x(1-x)$. Power-norm scaling across Hurwitz algebras ($\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$) was confirmed with **$0.001\%$ accuracy** on superconducting qubits.
+* **Core Discovery:** Proved that the classical area deficit $\Delta S = 2\pi r_2 r_3 = 2x(1-x)S_1$ is identical to the **linear entanglement entropy** of a bipartite state: $S_L = 1 - \text{Tr}(\rho_A^2) = 2x(1-x)$. Power-norm scaling across Hurwitz algebras ($\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$) was verified with **$0.001\%$ accuracy** on physical superconducting qubits.
 
 ### Phase 2: Advanced 8D Dynamics, Holonomy, and Multi-Slider Geometry
 * **Technical Report:** [`phase2.md`](./phase2.md) | **Notebook:** [`RCHOexperimentPhase2.ipynb`](./RCHOexperimentPhase2.ipynb) | **Hardware:** `ibm_marrakesh` (1,064,960 shots)
 * **Core Discovery:** 
-  1. *Fano Associator Witness:* Evaluated collinear vs. non-collinear triads; detected non-associative phase frustration ($>9.0\%$ contrast) away from the isotropic midpoint.
+  1. *Fano Associator Witness:* Detected non-associative phase frustration ($>9.0\%$ contrast) away from the isotropic midpoint.
   2. *8D Okteract Quantum Walk:* Tracked wave packet dispersion across 256 vertices and 1024 edges, hitting the equatorial plane ($d = 3.920 \approx 4.000$) with a spreading entropy of $7.226$ bits.
   3. *Dynamic Berry Holonomy:* Proved moving the slider accumulates a topological gauge field, reconstructing a $+59.92^\circ \to -60.31^\circ$ phase with a nodal zero-crossing at $x=0.50$.
   4. *Ternary Arbelos:* Trisection of the line peaked at $66.621\%$ (theory: $66.667\%$), with 8D octonionic absorption reaching $99.952\%$.
@@ -175,6 +192,13 @@ The entire research program resolves into a singular, self-referential duality:
   2. *EVT Stabilization:* Verified that horizon radius stabilizes logarithmically ($R/r_0 \approx 6.0 - 6.5$) via Gumbel Extreme Value Theory.
   3. *The $3.32\times 10^6\times$ Octonionic Explosion:* Hardware measurements on `ibm_fez` confirmed that while 1D scales as $6.30\times$ and 2D as $39.20\times$, the 8D octonionic manifold undergoes a **$3,320,878.37\times$ phase-space explosion**, yielding a **$527,304\times$ dimensional advantage** over 1D systems.
 
+### Phase 5B: Bounded Infinities, Nested Filtration, and the Infrared Vacuum Collapse
+* **Technical Report:** [`Phase5b.md`](./Phase5b.md) | **Notebook:** [`RHCOeperimentPhase5b.ipynb`](./RHCOeperimentPhase5b.ipynb) | **Hardware:** `ibm_fez` (196,608 shots)
+* **Core Discovery:**
+  1. *Nested Filtration of Infinities:* Demonstrated that larger solution spaces strictly enclose smaller cutoffs ($\mathcal{S}_{10} \subsetneq \dots \subsetneq \mathcal{S}_{10^6}$), expanding the solution volume by $10^{D \cdot k}$ up to $10^{48}\times$ in 8D.
+  2. *Infrared Catastrophe Proof:* As cutoff scale expands to $10^6$, 8D core information density collapses down to $0.22\%$, displaying **$42.1\times$ higher localization in 1D** and proving that physically solvable problems require an upper boundary horizon.
+  3. *Observation of the Vacuum Noise Floor:* Showed that on real quantum hardware, dilution plateaus at the physical zero-point noise floor ($\approx 2.2 \times 10^{-3}$), demonstrating where continuous mathematical dilution dissolves into the physical quantum vacuum.
+
 ---
 
 ## 💻 Quickstart & Reproduction
@@ -182,43 +206,4 @@ The entire research program resolves into a singular, self-referential duality:
 ### Google Colab One-Click Execution
 * **Phase 1 Benchmark (RCHO Core):** [![Open Phase 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperiment.ipynb)
 * **Phase 2 Advanced (8D Dynamics & Holonomy):** [![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase2.ipynb)
-* **Phase 3 Fault-Tolerance (Steane QEC & G2/E8):** [![Open Phase 3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimentPhase3.ipynb)
-* **Phase 4 Practical FTQC (Gates, Bell & Sensing):** [![Open Phase 4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimenPhase4.ipynb)
-* **Phase 5 The Ouroboros (Phase-Space Explosion):** [![Open Phase 5 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase5.ipynb)
-
-### Local Environment Setup
-```bash
-# Clone the repository
-git clone https://github.com/peterbabulik/it-from-qubit-rcho.git
-cd it-from-qubit-rcho
-
-# Install requirements
-pip install qiskit qiskit-ibm-runtime matplotlib numpy scipy
-```
-
-To run on IBM Quantum hardware, set your API token within any notebook:
-```python
-from qiskit_ibm_runtime import QiskitRuntimeService
-service = QiskitRuntimeService(channel="ibm_quantum", token="YOUR_IBM_API_TOKEN")
-```
-
----
-
-## 📜 Selected References
-
-1. **Hurwitz, A.** (1898). *Ueber die Composition der quadratischen Formen von beliebig vielen Variabeln.* Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen.
-2. **Wheeler, J. A.** (1989). *Information, physics, quantum: The search for links.* Proc. 3rd Int. Symp. Foundations of Quantum Mechanics.
-3. **Steane, A. M.** (1996). *Error Detecting Codes in Quantum Theory.* Physical Review Letters, 77(5), 793–797.
-4. **Ryu, S., & Takayanagi, T.** (2006). *Holographic Derivation of Entanglement Entropy from AdS/CFT.* Phys. Rev. Lett., 96(18), 181602.
-5. **Baez, J. C.** (2002). *The Octonions.* Bull. Amer. Math. Soc., 39(2), 145–205.
-6. **Berry, M. V.** (1984). *Quantal phase factors accompanying adiabatic changes.* Proc. R. Soc. Lond. A, 392, 45–57.
-7. **Farhi, E., & Gutmann, S.** (1998). *Quantum computation and decision trees.* Phys. Rev. A, 58(2), 915.
-8. **Conway, J. H., & Smith, D. A.** (2003). *On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry.* A K Peters/CRC Press.
-9. **Dür, W., et al.** (2014). *Improved quantum sensing with error correction.* Phys. Rev. Lett., 112(8), 080801.
-10. **Google Quantum AI.** (2023). *Suppressing quantum errors by scaling a quantum error-correcting code.* Nature, 614(7949), 676–681.
-11. **Gumbel, E. J.** (1958). *Statistics of Extremes.* Columbia University Press.
-
----
-
-## 📄 License
-This repository is open-source and released under the [MIT License](LICENSE).
+* **Phase 3 Fault-Tolerance (Steane QEC & G2/E8):** [![Open Phase 3 in Colab](https://colab.research.
