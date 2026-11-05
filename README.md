@@ -1,6 +1,6 @@
 # it-from-qubit-rcho
 
-### The Complete Program: Inward Holographic Contraction, Topological Fault-Tolerance, and Outward Solution-Space Filtration Across Hurwitz Composition Algebras
+### The Complete Ouroboros Program: Inward Holographic Contraction, Topological Fault-Tolerance, and Outward Solution-Space Filtration Across Hurwitz Composition Algebras
 
 [![Open Phase 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperiment.ipynb)
 [![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase2.ipynb)
@@ -206,4 +206,41 @@ The entire research program resolves into a singular, self-referential duality:
 ### Google Colab One-Click Execution
 * **Phase 1 Benchmark (RCHO Core):** [![Open Phase 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperiment.ipynb)
 * **Phase 2 Advanced (8D Dynamics & Holonomy):** [![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase2.ipynb)
-* **Phase 3 Fault-Tolerance (Steane QEC & G2/E8):** [![Open Phase 3 in Colab](https://colab.research.
+* **Phase 3 Fault-Tolerance (Steane QEC & G2/E8):** [![Open Phase 3 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimentPhase3.ipynb)
+* **Phase 4 Practical FTQC (Gates, Bell & Sensing):** [![Open Phase 4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOexperimenPhase4.ipynb)
+**Phase 5 The Ouroboros (Phase-Space Explosion):** [![Open Phase 5 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase5.ipynb)
+* **Phase 5B Bounded Infinities (IR Collapse & Vacuum):** [![Open Phase 5B in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RHCOeperimentPhase5b.ipynb)
+
+### Local Environment Setup
+```bash
+# Clone the repository
+git clone https://github.com/peterbabulik/it-from-qubit-rcho.git
+cd it-from-qubit-rcho
+```
+
+# Install requirements
+pip install qiskit qiskit-ibm-runtime matplotlib numpy scipy
+To run on IBM Quantum hardware, set your API token within any notebook:
+
+```bash
+from qiskit_ibm_runtime import QiskitRuntimeService
+service = QiskitRuntimeService(channel="ibm_quantum", token="YOUR_IBM_API_TOKEN")
+```
+
+
+📜 Selected References
+Hurwitz, A. (1898). Ueber die Composition der quadratischen Formen von beliebig vielen Variabeln. Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen.
+Wheeler, J. A. (1989). Information, physics, quantum: The search for links. Proc. 3rd Int. Symp. Foundations of Quantum Mechanics.
+Steane, A. M. (1996). Error Detecting Codes in Quantum Theory. Physical Review Letters, 77(5), 793–797.
+Ryu, S., & Takayanagi, T. (2006). Holographic Derivation of Entanglement Entropy from AdS/CFT. Phys. Rev. Lett., 96(18), 181602.
+Baez, J. C. (2002). The Octonions. Bull. Amer. Math. Soc., 39(2), 145–205.
+Berry, M. V. (1984). Quantal phase factors accompanying adiabatic changes. Proc. R. Soc. Lond. A, 392, 45–57.
+Farhi, E., & Gutmann, S. (1998). Quantum computation and decision trees. Phys. Rev. A, 58(2), 915.
+Conway, J. H., & Smith, D. A. (2003). On Quaternions and Octonions: Their Geometry, Arithmetic, and Symmetry. A K Peters/CRC Press.
+Dür, W., et al. (2014). Improved quantum sensing with error correction. Phys. Rev. Lett., 112(8), 080801.
+Google Quantum AI. (2023). Suppressing quantum errors by scaling a quantum error-correcting code. Nature, 614(7949), 676–681.
+Gumbel, E. J. (1958). Statistics of Extremes. Columbia University Press.
+Cantor, G. (1874). Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen. Journal für die reine und angewandte Mathematik, 77, 258–262.
+Wilson, K. G. (1971). Renormalization group and critical phenomena. Physical Review B, 4(9), 3174.
+## 📄 License
+This repository is open-source and released under the MIT License.
