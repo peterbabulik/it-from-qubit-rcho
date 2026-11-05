@@ -1,6 +1,6 @@
 # it-from-qubit-rcho
 
-### The Complete Ouroboros Framework: Inward Contraction, Topological Fault-Tolerance, and Outward Phase-Space Explosion Across Hurwitz Composition Algebras
+### The Complete Framework: Inward Contraction, Topological Fault-Tolerance, and Outward Phase-Space Explosion Across Hurwitz Composition Algebras
 
 [![Open Phase 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperiment.ipynb)
 [![Open Phase 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterbabulik/it-from-qubit-rcho/blob/main/RCHOexperimentPhase2.ipynb)
